@@ -1970,7 +1970,7 @@ Candidate_Search_And_Manage()
 	lr_end_transaction("1_Candidate Skills",LR_AUTO);
 
 	lr_start_transaction("1_Candidate Industries");
-
+    web_reg_find("Text=Folder Groups", LAST);
 	web_url("LoadUserControl.aspx_3", 
 		"URL=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=FolderGroupsNew", 
 		"TargetFrame=", 
@@ -2021,6 +2021,7 @@ Candidate_Search_And_Manage()
 
 	lr_start_transaction("1_Candidate_Click_Tax");
 
+    web_reg_find("Text=Tax Information", LAST);
 	web_url("LoadUserControl.aspx_4", 
 		"URL=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Tax", 
 		"TargetFrame=", 
@@ -2083,7 +2084,7 @@ Candidate_Search_And_Manage()
 	lr_end_transaction("1_Candidate_Click_Tax",LR_AUTO);
 
 	lr_start_transaction("1_Candidate_Click_Schedule");
-
+    web_reg_find("Text=Add availability", LAST);
 	web_url("LoadUserControl.aspx_5", 
 		"URL=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=CandidateSchedule", 
 		"TargetFrame=", 
@@ -2107,6 +2108,7 @@ Candidate_Search_And_Manage()
 	lr_end_transaction("1_Candidate_Click_Schedule",LR_AUTO);
 
 	lr_start_transaction("1_Candidate_Click_History");
+    
 
 	web_url("LoadUserControl.aspx_6", 
 		"URL=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=History", 
@@ -2153,6 +2155,7 @@ Candidate_Search_And_Manage()
 		"Mode=HTML", 
 		LAST);
 
+    web_reg_find("Text=Change History", LAST);
 	web_url("ChangeHistory.html", 
 		"URL=https://staff.belflex.com/MVC/Content/js/Audit/Templates/ChangeHistory.html", 
 		"TargetFrame=", 

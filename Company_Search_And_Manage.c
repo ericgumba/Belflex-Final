@@ -1705,7 +1705,7 @@ Company_Search_And_Manage()
 
 	lr_end_transaction("1_Notes Click",LR_AUTO);
 
-	lr_start_transaction("1_Click Folder");
+	lr_start_transaction("1_Company_Click_Folder");
 
 	web_url("LoadUserControl.aspx_2", 
 		"URL=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=1&refid=145861&control=FolderGroupsNew", 
@@ -1749,10 +1749,13 @@ Company_Search_And_Manage()
 		"Url=/Mvc/Content/Images/Icons/add.png", "Referer=https://staff.belflex.com/MVC/Content/css/erecruit.css", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("1_Click Folder",LR_AUTO);
+	lr_end_transaction("1_Company_Click_Folder",LR_AUTO);
  
 
-	lr_start_transaction("1_Skills");
+	lr_start_transaction("1_Company_Click_Skills");
+
+    web_reg_find("Text=Level", LAST);
+
 
 	web_url("LoadUserControl.aspx_3", 
 		"URL=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=1&refid=145861&control=Skills", 
@@ -1778,7 +1781,7 @@ Company_Search_And_Manage()
 		"Url=../Mvc/Localization/LocalizationModel", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=1&refid=145861&control=Skills", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("1_Skills",LR_AUTO);
+	lr_end_transaction("1_Company_Click_Skills",LR_AUTO);
 
 	lr_start_transaction("1_Company_Click_History");
 
@@ -1816,6 +1819,7 @@ Company_Search_And_Manage()
 		"Url=/MVC/Content/js/Audit/Templates/ChangeHistory.css", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=1&refid=145861&control=History", ENDITEM, 
 		LAST);
 
+    web_reg_find("Text=Change History", LAST);
 	web_url("ChangeHistory.html", 
 		"URL=https://staff.belflex.com/MVC/Content/js/Audit/Templates/ChangeHistory.html", 
 		"TargetFrame=", 
