@@ -8,17 +8,9 @@
 
 vuser_init()
 {
-
+//todo invoke app
 	web_set_max_html_param_len("41488");
 
-	web_url("device-desc.xml", 
-		"URL=http://192.168.1.121:8008/ssdp/device-desc.xml", 
-		"TargetFrame=", 
-		"Resource=1", 
-		"RecContentType=application/xml", 
-		"Referer=", 
-		"Snapshot=t1.inf", 
-		LAST);
 
 	web_set_sockets_option("SSL_VERSION", "2&3");
  
@@ -458,9 +450,7 @@ RuleName ='ScriptResource.axd'*/
 		"URL=/ScriptResource.axd?d=MFXKNQ8ab_LEQJ6hHeptPLbDgUby09PE2PQ5-iasaA4Mb6j84cjUM6hvPXK7V0csracmME3AcOt51Yu1PvN7MlpI0rhQv48pTd2dPbJrVfw1UzZdO6nh6QF8jd-A1JSmtQuzA-x7vzhb6jQ_2Gx8-UAlJGA1&t=3967d01", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
 		"URL=/Mvc/Content/Images/icons/refresh.png", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
 		"URL=/Mvc/Content/Images/icons/14/cross.png", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
-		"URL=/MVC/Content/js/Logout.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
-		"URL=/mvc/dispatch/hubs?", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
-		"URL=/MVC/Content/js/dispatch.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
+		"URL=/MVC/Content/js/Logout.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM, 
 		"URL=/MVC/Content/js/Notifications/Notifications.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
 		"URL=/MVC/Content/js/Frame/ShortcutManager/AddShortcutCommand.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
 		"URL=/MVC/Content/js/Frame/TopMenu/TopMenu.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
@@ -479,10 +469,8 @@ RuleName ='ScriptResource.axd'*/
 		"URL=/MVC/Content/js/Controls/InfoBox.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
 		"URL=/MVC/Content/require/css.min.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
 		"URL=/MVC/Content/js/BL/ScheduledItem/Templates/SearchSidebarButtons.css", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
-		"URL=/MVC/Content/js/Controls/stylesheet.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
-		"URL=/mvc/dispatch/negotiate?connectionData=%5B%7B%22name%22%3A%22notification%22%7D%5D&clientProtocol=1.3&_=1583523124710", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
-		"URL=/Mvc/User/CheckExpiration", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
-		//"URL=/mvc/dispatch/connect?transport=serverSentEvents&connectionToken=4sXVXsrUqZgtUrlI%2Beki5Z4zBLi%2Bny86bJ3QV7p%2FsnH6hwGLIuqX8mwEvKs%2FHLeAGkvF3EhKIGtimVV%2BsAzLtU9PQTesRz7dLQYKmx2RPDv9oAvudS4FTbiZinKTOrq4UMMO5A%3D%3D&connectionData=%5B%7B%22name%22%3A%22notification%22%7D%5D&tid=10", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,
+		"URL=/MVC/Content/js/Controls/stylesheet.js", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM, 
+		"URL=/Mvc/User/CheckExpiration", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM, 
 		LAST);
 	web_convert_param("AspNet_ScriptResource_6_PLAIN",
 		"SourceString=AspNet_ScriptResource_6",
@@ -755,17 +743,7 @@ RuleName ='ScriptResource.axd'*/
 		"Url=/MVC/Dashboard/ScheduledItemCalendarData?startDate=%222020-03-01T08%3A00%3A00.000Z%22&endDate=%222020-03-08T08%3A00%3A00.000Z%22&calendarView=basicWeek&scheduledItemListType=User&scheduleItemTypes=&categories=", "Referer=https://staff.belflex.com/Pages/dashboard/Recruiter.aspx?null", ENDITEM, 
 		LAST);
 
-	web_submit_data("send", 
-		"Action=https://staff.belflex.com/mvc/dispatch/send?transport=serverSentEvents&connectionToken=4sXVXsrUqZgtUrlI%2Beki5Z4zBLi%2Bny86bJ3QV7p%2FsnH6hwGLIuqX8mwEvKs%2FHLeAGkvF3EhKIGtimVV%2BsAzLtU9PQTesRz7dLQYKmx2RPDv9oAvudS4FTbiZinKTOrq4UMMO5A%3D%3D&connectionData=%5B%7B%22name%22%3A%22notification%22%7D%5D", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=application/json", 
-		"Referer=https://staff.belflex.com/Recruiter/", 
-		"Snapshot=t31.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=data", "Value={\"H\":\"notification\",\"M\":\"Register\",\"A\":[[\"/user/08b5c73d-8e4d-467c-82be-0c6789f8f6a5/phone\",\"/user/logout\"]],\"I\":0}", ENDITEM, 
-		LAST);
+	
 
 	lr_end_transaction("1_Recruiter Dashboard",LR_AUTO);
 

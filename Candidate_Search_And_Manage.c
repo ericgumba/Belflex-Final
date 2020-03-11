@@ -1172,8 +1172,7 @@ Candidate_Search_And_Manage()
 		"Body={\"BucketPath\":\"Search.Candidate.FullPage\",\"ContainerID\":\"Search.ParameterHistory\",\"Container\":{\"LastUsedParameters\":[\"Fts\",\"Status\",\"Tags\",\"dx\",\"Location\",\"Semantic\",\"Owner\"],\"RecentParameters\":[]}}", 
 		EXTRARES, 
 		"Url=../Content/fonts/fontawesome-webfont.woff2?v=4.4.0", "Referer=https://staff.belflex.com/Mvc/Content/css/Library/library.min.css", ENDITEM, 
-		"Url=../User/CheckExpiration", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM, 
-		"Url=/mvc/dispatch/ping?connectionData=%5B%7B%22name%22%3A%22notification%22%7D%5D&_=1583533748747", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM, 
+		"Url=../User/CheckExpiration", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM,  
 		LAST);
 
 	web_url("Tip_5", 
@@ -1542,21 +1541,7 @@ Candidate_Search_And_Manage()
 		"Snapshot=t563.inf", 
 		"Mode=HTML", 
 		LAST);
-
-	web_url("crx", 
-		"URL=https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=80.0.3987.132&lang=en-US&acceptformat=crx3&x=id%3Daknpkdffaafgjchaibgeefbgmgeghloj%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D2%2526e%253D0%2526dr%253D1&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x="
-		"id%3Dfdmmgilgnpjigdojojpjoooidkmcomcm%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D2%2526e%253D1&x=id%3Dmhbpoeinkhpajikalhfpjjafpfgjnmgk%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D2%2526e%253D0%2526dr%253D1", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/xml", 
-		"Referer=", 
-		"Snapshot=t564.inf", 
-		"Mode=HTML", 
-		EXTRARES, 
-		"Url=https://staff.belflex.com/MVC/Content/js/BL/ScheduledItem/ScheduledItem.js", "Referer=https://staff.belflex.com/Pages/candidate/manage.aspx?refid=2494772&null", ENDITEM, 
-		"Url=https://staff.belflex.com/MVC/Content/js/BL/ScheduledItem/Templates/ManageScheduledItem.css", "Referer=https://staff.belflex.com/Pages/candidate/manage.aspx?refid=2494772&null", ENDITEM, 
-		LAST);
-
+ 
 	lr_end_transaction("1_click on first result",LR_AUTO);
 
 	lr_start_transaction("1_Add Note");
@@ -1805,7 +1790,7 @@ Candidate_Search_And_Manage()
 		"Mode=HTML", 
 		EXTRARES, 
 		"Url=/Search/note/by/record?aboutType=Candidate&referenceID=2494772", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Notes", ENDITEM, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ3Q9GAG_9mxYjLZFhlU4kIy2UkJL6JBQ=", "Referer=", ENDITEM, 
+		//"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ3Q9GAG_9mxYjLZFhlU4kIy2UkJL6JBQ=", "Referer=", ENDITEM, 
 		LAST);
 
 	web_url("Columns.html_3", 
@@ -1890,7 +1875,7 @@ Candidate_Search_And_Manage()
 		"Mode=HTML", 
 		EXTRARES, 
 		"Url=/MVC/Content/js/BL/Base/DeclareDataSource.js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Notes", ENDITEM, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZS_YDTTJ6G0UjLZFhlU4kIy358BQvJCMtrspKOSQjLZSQkvokFA==", "Referer=", ENDITEM, 
+		//"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZS_YDTTJ6G0UjLZFhlU4kIy358BQvJCMtrspKOSQjLZSQkvokFA==", "Referer=", ENDITEM, 
 		"Url=/MVC/Content/js/Search/Filters/SelectFilter.js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Notes", ENDITEM, 
 		LAST);
 
@@ -1913,7 +1898,7 @@ Candidate_Search_And_Manage()
 		"Snapshot=t1562.inf", 
 		"Mode=HTML", 
 		EXTRARES, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZKj_pto8T3QsjLZFhlU4kIy2RYZVOJCMtkWGVTiQjLZFhlU4kIy2RYZVOJCMt-fAULyQjLa7KSjkkIy2RYZVOJCMtlJCS-iQU", "Referer=", ENDITEM, 
+		//"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZKj_pto8T3QsjLZFhlU4kIy2RYZVOJCMtkWGVTiQjLZFhlU4kIy2RYZVOJCMt-fAULyQjLa7KSjkkIy2RYZVOJCMtlJCS-iQU", "Referer=", ENDITEM, 
 		"Url=/Mvc/department/all", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Notes", ENDITEM, 
 		"Url=/Mvc/noteaction/List-all", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Notes", ENDITEM, 
 		LAST);
@@ -1959,10 +1944,10 @@ Candidate_Search_And_Manage()
 		"Url=../ScriptResource.axd?d=L_Iit2Ph_5Df1Gw1vih333fB_yN2disFiRulDSFBTdpHWq5SVvwlqkiUqyEW8jECfWCv7ovgW0HIvs78sq6-fgiNnkU_oMDnp4FtefN1IueJda0tD7aGHamZ9zZpxWkhho4eSBEUJzGrxCwpuDXY2thPChs1&t=3967d01", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Skills", ENDITEM, 
 		"Url=../Services/LookupService.asmx/js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Skills", ENDITEM, 
 		"Url=../Services/UpdateService.asmx/js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Skills", ENDITEM, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZDtSRCLNB4U4jLTSANwQkIy2C9BEvJCMtqv5jbCQU", "Referer=", ENDITEM, 
+		//"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZDtSRCLNB4U4jLTSANwQkIy2C9BEvJCMtqv5jbCQU", "Referer=", ENDITEM, 
 		"Url=../Mvc/Localization/LocalizationModel", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Skills", ENDITEM, 
 		"Url=../Mvc/Content/Images/bits/bg_sectionmenu.png", "Referer=https://staff.belflex.com/MVC/Content/css/erecruit.css", ENDITEM, 
-		"Url=../mvc/dispatch/ping?connectionData=%5B%7B%22name%22%3A%22notification%22%7D%5D&_=1583819190115", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM, 
+		//"Url=../mvc/dispatch/ping?connectionData=%5B%7B%22name%22%3A%22notification%22%7D%5D&_=1583819190115", "Referer=https://staff.belflex.com/Recruiter/", ENDITEM, 
 		LAST);
 
 	/* Software */
@@ -2007,9 +1992,7 @@ Candidate_Search_And_Manage()
 		"Mode=HTML", 
 		EXTRARES, 
 		"Url=/App_Themes/Default/javascript/jquery.validate.unobtrusive.js?_=1583819527890", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=FolderGroupsNew", ENDITEM, 
-		"Url=/App_Themes/Default/javascript/jquery.validate.unobtrusive.js?_=1583819527891", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=FolderGroupsNew", ENDITEM, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZLKLwt21u-00jLZFhlU4kIy2_e6BSJBQTGVeGj5xEo6KaIy2i4_5xJCMtGtBUsiQjLf4pr3ckIy2jyynpJBQ=", "Referer=", ENDITEM, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZTqa3AgYn8f8jLaLj_nEkIy0a0FSyJCMtkWGVTiQjLf4pr3ckIy2RYZVOJCMto8sp6SQU", "Referer=", ENDITEM, 
+		"Url=/App_Themes/Default/javascript/jquery.validate.unobtrusive.js?_=1583819527891", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=FolderGroupsNew", ENDITEM,  
 		LAST);
  
 
@@ -2042,7 +2025,7 @@ Candidate_Search_And_Manage()
 		"Url=../Services/LookupService.asmx/js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Tax", ENDITEM, 
 		"Url=../Services/UpdateService.asmx/js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Tax", ENDITEM, 
 		"Url=../Mvc/Localization/LocalizationModel", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Tax", ENDITEM, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZuytbKzxptXcjLf0wy4EkIy2AzuzwJCMtMRIi9yQjLQPJyBQkIy0dJbndJCMtCXdQLCQjLR9pkKIkIy0UaAXqJCMtiwtzuSQjLYT9b8okIy23_aJ7JCMtYrIP8yQjLdeSeEkkIy0AxUKyJCMt07yw2CQjLVc3aE4kIy3VtOgtJCMtHhJ1SiQjLf6fJ1gkIy0mKJttJCMtJkuZ8yQjLeIgaoMkIy1yCyVUJCMts-my0iQjLd1WWmckIy0qIWTQJCMtYvrjaCQjLToSf70kIy0Z6pLRJCMtyHm3piQjLUg_YcUkIy3PWUwlJCMtnUnVOiQU", "Referer=", ENDITEM, 
+		//"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZuytbKzxptXcjLf0wy4EkIy2AzuzwJCMtMRIi9yQjLQPJyBQkIy0dJbndJCMtCXdQLCQjLR9pkKIkIy0UaAXqJCMtiwtzuSQjLYT9b8okIy23_aJ7JCMtYrIP8yQjLdeSeEkkIy0AxUKyJCMt07yw2CQjLVc3aE4kIy3VtOgtJCMtHhJ1SiQjLf6fJ1gkIy0mKJttJCMtJkuZ8yQjLeIgaoMkIy1yCyVUJCMts-my0iQjLd1WWmckIy0qIWTQJCMtYvrjaCQjLToSf70kIy0Z6pLRJCMtyHm3piQjLUg_YcUkIy3PWUwlJCMtnUnVOiQU", "Referer=", ENDITEM, 
 		"Url=../MVC/Content/js/BL/Candidate/DirectDepositType.js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=Tax", ENDITEM, 
 		LAST);
 
@@ -2101,7 +2084,7 @@ Candidate_Search_And_Manage()
 		"Url=../Services/LookupService.asmx/js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=CandidateSchedule", ENDITEM, 
 		"Url=../Services/UpdateService.asmx/js", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=CandidateSchedule", ENDITEM, 
 		"Url=../Mvc/Localization/LocalizationModel", "Referer=https://staff.belflex.com/Pages/LoadUserControl.aspx?abouttypeid=6&refid=2494772&control=CandidateSchedule", ENDITEM, 
-		"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZyF3oECSR_qsjLW_gK-AkIy1ChKosJCMtIKuigiQjLY0NWlMkIy3M7vD2JCMtkJqoPSQjLdZtlpUkIy0_Zw06JCMt_-e9ZCQjLUN0Jq4kIy2FxPubJCMtK9WO6iQU", "Referer=", ENDITEM, 
+		//"Url=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZyF3oECSR_qsjLW_gK-AkIy1ChKosJCMtIKuigiQjLY0NWlMkIy3M7vD2JCMtkJqoPSQjLdZtlpUkIy0_Zw06JCMt_-e9ZCQjLUN0Jq4kIy2FxPubJCMtK9WO6iQU", "Referer=", ENDITEM, 
 		"Url=../Mvc/Content/Images/calendarscheduling.gif", "Referer=https://staff.belflex.com/MVC/Content/css/erecruit.css", ENDITEM, 
 		"Url=../WebResource.axd?d=J3IVMxpdATZZweonZP1zyM24t7D1abNl5W_3-hkFMjs0Duq20NaTlgzCchPpFr0KCkxh0P19-DBqo7cRkcbX8Yi-Tr2TmrbzXUsyuVXbVOkgB82_4lAVaBZQU7aTcVwazdxc3BxRHkQ-siMF2aCufjosjzZyEbx8CXKh_2DP62mzL6Gk0&t=635004147360000000", "Referer=https://staff.belflex.com/WebResource.axd?d=XO4BcZalKwaX00FgIvbXwgPPKwm0d5tpg-VWWhT2ka6XGxXKEvUiq1ubRE_QYIb8n5gfLyrjDkcjIGoTXvNnvaZ46OIrkivMLe4hCaFAflgyfasHPRUbGR56D_oYaNkMGKvc9QOEOnRQutJtP1f_GWgGGEBIYAncjO-toNPlY_bnr1mp0&t=635004147360000000", ENDITEM, 
 		LAST); 
